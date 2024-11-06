@@ -4,3 +4,5 @@ jupyter
 seaborn
 matplotlib
 scikit-learn
+lightgbm
+fpdf

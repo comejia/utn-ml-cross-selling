@@ -185,7 +185,7 @@ def Graficar_Variables2(pDataFrame, categorical_variables, tgt):
                 pdf.cell(90, 30, " ", 0, 2, 'C')
                 pdf.set_xy(30, renglon + 40)  
                 pdf.image('graph.png', x = None, y = None, w = 0, h = 0, type = '', link = '')
-                pdf.output(r'C:\Users\Usuario\Desktop\ML\Datos\Variables\n_' + campo + '.pdf', 'F')
+                pdf.output(r'./' + campo + '.pdf', 'F')
             except:
                 print('error ', campo)
                 pass
@@ -224,7 +224,7 @@ def Graficar_Variables2(pDataFrame, categorical_variables, tgt):
                 #pdf.cell(-150)        
                 pdf.set_xy(30, renglon + 40)
                 pdf.image('graph.png', x = None, y = None, w = 0, h = 0, type = '', link = '')            
-                pdf.output(r'C:\Users\Usuario\Desktop\ML\Datos\Variables\t_' + campo + '.pdf', 'F')
+                pdf.output(r'./' + campo + '.pdf', 'F')
             
             except:
                 print('error ', campo)
